@@ -1,26 +1,37 @@
-# Efficient AI Computation
+# GPU Compiler Lab
 
-This repository documents my journey into efficient AI computation and GPU performance engineering.
-
-## Research Projects
-
-**Project 1:** Performance Characterization and Compiler-Guided Optimization of Deep Learning Inference on GPU Architectures.
-
-**Project 2:** Performance Characterization and Optimization of AI Perception Pipelines for Vision-Based Robotic Manipulation.
-
-## Learning Areas
-
-- Python and computational foundations
-- Computer architecture
-- GPU architecture
-- CUDA and Triton
-- Deep learning compilers
-- AI inference optimization
-- Performance engineering
-- Robotic perception
+A collection of hands-on experiments exploring GPU computing, compiler optimization, parallel programming, and performance analysis.
 
 ## Experiments
 
-This repository contains practical experiments, implementations, measurements, and technical analysis conducted throughout my research journey.
+| No. | Experiment | Focus |
+|-----|------------|-------|
+| 001 | Execution Time | GPU execution and performance measurement |
+| 002 | Parallel Computing | Parallel execution and computational performance |
+| 003 | Floating Point Precision | Numerical precision and computational behavior |
 
-**Goal:** Develop the technical ability to independently investigate and optimize AI computation systems.
+## Topics
+
+- GPU Architecture
+- CUDA Programming
+- GPU Compiler Optimization
+- Parallel Computing
+- Kernel Performance
+- Memory Optimization
+- Floating Point Computation
+
+## Hardware
+
+- NVIDIA GeForce RTX 5060 Ti (16 GB VRAM)
+
+## Repository Structure
+
+```text
+gpu-compiler-lab/
+├── experiments/
+│   ├── 001_execution_time/
+│   ├── 002_parallel_computing/
+│   └── 003_floating_point_precision/
+├── notes/
+├── .gitignore
+└── README.md
