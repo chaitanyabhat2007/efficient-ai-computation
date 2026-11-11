@@ -1,37 +1,73 @@
 # GPU Compiler Lab
 
-A collection of hands-on experiments exploring GPU computing, compiler optimization, parallel programming, and performance analysis.
+A hands-on experimental laboratory exploring computer systems, parallel computing, GPU architecture, compiler design, and performance engineering.
 
-## Experiments
+This repository documents a structured progression from foundational experiments to research-oriented investigations in GPU computing and compiler optimization.
 
-| No. | Experiment | Focus |
-|-----|------------|-------|
-| 001 | Execution Time | GPU execution and performance measurement |
-| 002 | Parallel Computing | Parallel execution and computational performance |
-| 003 | Floating Point Precision | Numerical precision and computational behavior |
+## Research Direction
 
-## Topics
+The long-term objective is to develop a deeper understanding of how compilers and GPU execution systems can improve the efficiency of computational workloads, particularly those arising in vision-based robotic perception.
 
-- GPU Architecture
-- CUDA Programming
-- GPU Compiler Optimization
-- Parallel Computing
-- Kernel Performance
-- Memory Optimization
-- Floating Point Computation
+Areas of exploration include:
 
-## Hardware
+- Computer systems and performance measurement
+- Parallel computing and concurrency
+- GPU architecture and execution models
+- CUDA and GPU kernel programming
+- Memory hierarchy and optimization
+- Compiler fundamentals and intermediate representations
+- Computational graph optimization
+- GPU compilation and inference systems
+- Workload-aware and hardware-aware optimization
 
-- NVIDIA GeForce RTX 5060 Ti (16 GB VRAM)
+## Experimental Methodology
+
+Each experiment is designed to investigate a specific technical question through implementation and measurement.
+
+Experiments aim to include:
+
+- A clearly defined objective and hypothesis
+- Relevant theoretical foundations
+- An implementation or reproducible benchmark
+- Controlled experimental variations
+- Quantitative measurements
+- Analysis of results and observed behaviour
+- Conclusions and connections to broader systems concepts
+
+Performance claims are supported by measurements rather than assumptions.
 
 ## Repository Structure
 
 ```text
 gpu-compiler-lab/
 ├── experiments/
-│   ├── 001_execution_time/
-│   ├── 002_parallel_computing/
-│   └── 003_floating_point_precision/
+│   ├── 000-execution-time/
+│   └── ...
+├── papers/
 ├── notes/
-├── .gitignore
+├── resources/
 └── README.md
+```
+
+The repository will evolve as new experimental areas are introduced.
+
+## Hardware
+
+Primary experimental GPU:
+
+- NVIDIA GeForce RTX 5060 Ti — 16 GB VRAM
+
+Software versions and experimental configurations will be recorded alongside relevant results.
+
+## Research Principles
+
+1. Understand the underlying system before optimizing it.
+2. Establish a baseline before introducing optimizations.
+3. Change controlled variables and measure their effects.
+4. Prioritize correctness, reproducibility, and clear analysis.
+5. Distinguish measured results from hypotheses and interpretations.
+6. Document failures and unexpected observations.
+
+## Status
+
+This repository is an ongoing independent study and experimental project. Its contents will develop progressively as foundational concepts are explored and research questions emerge.
