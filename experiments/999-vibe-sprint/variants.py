@@ -3,7 +3,8 @@ from cpu_ref import VOXEL
 
 def atomics(pts):
     """pts: (N,3) float64 CUDA tensor. Dense grid + index_add_ (atomic adds)."""
-    idx = torch.floor(pts / VOXEL).long()
+    vs = torch.tensor(VOXEL, dtype=pts.dtype, device=pts.device)
+    idx = torch.floor(pts / vs).long()
     mn = idx.min(0).values
     idx = idx - mn
     dims = idx.max(0).values + 1
